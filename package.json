@@ -1,30 +1,28 @@
 {
-  "name": "cordova-plugin-firebase-analytics",
-  "version": "0.12.1",
-  "description": "Cordova plugin for Firebase Analytics",
+  "name": "cordova-plugin-firebase-crashlytics",
+  "version": "0.1.0",
+  "description": "Cordova plugin for Firebase Crashlytics",
   "cordova": {
-    "id": "cordova-plugin-firebase-analytics",
+    "id": "cordova-plugin-firebase-crashlytics",
     "platforms": [
-      "ios",
-      "android"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-analytics.git"
+    "url": "git+https://github.com/FranciscoG/cordova-plugin-firebase-crashlytics.git"
   },
-  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
+  "author": "Francisco <info@franciscog.com> (https://github.com/FranciscoG)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics/issues"
+    "url": "https://github.com/FranciscoG/cordova-plugin-firebase-crashlytics/issues"
   },
-  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics#readme",
+  "homepage": "https://github.com/FranciscoG/cordova-plugin-firebase-crashlytics#readme",
   "keywords": [
     "cordova",
     "firebase",
-    "analytics",
+    "crashlytics",
     "ecosystem:cordova",
-    "cordova-android",
     "cordova-ios"
   ],
   "scripts": {
