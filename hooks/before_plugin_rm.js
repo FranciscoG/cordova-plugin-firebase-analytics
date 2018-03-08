@@ -1,5 +1,5 @@
-var iosHelper = require("./lib/ios-helper");
-var utilities = require("./lib/utilities");
+var iosHelper = require("./ios-helper");
+var utilities = require("./utilities");
 
 module.exports = function(context) {
 
