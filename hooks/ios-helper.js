@@ -18,7 +18,7 @@ module.exports = {
      * (dSYMs) so that Crashlytics can display stack trace information in it's web console.
      */
     addShellScriptBuildPhase: function (context, xcodeProjectPath) {
-
+        console.log('adding shell script phase');
         var pluginConfig = utilities.getPluginConfig("ios");
         var xcode = context.requireCordovaModule("xcode");
 
@@ -33,6 +33,7 @@ module.exports = {
         // Generate a unique ID for our new build phase.
         var id = xcodeProject.generateUuid();
         // Create the build phase.
+        console.log('creating the ios build phase with unique id:', id);
         xcodeProject.hash.project.objects.PBXShellScriptBuildPhase[id] = {
             isa: "PBXShellScriptBuildPhase",
             buildActionMask: 2147483647,
